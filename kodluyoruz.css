@@ -1,0 +1,39 @@
+
+body 
+{
+    background-color:#f0f8ff;
+}
+
+.baslik
+{
+    list-style:none;
+    margin:0; padding-left: 30%;
+}
+
+.baslik li
+{
+    float:left;
+    margin:5px;
+}
+
+.baslik a
+{
+    text-decoration:none;
+    color:#606;
+    font-weight:bold;
+    border:1px solid #609;
+    border-top:5px solid #606;
+    background:#FCF;
+    width:150px;
+    display:block;
+    line-height:25px;
+    padding:5px;
+    text-align:center;
+}
+
+.baslik a:hover
+{
+    margin-top:5px;
+    border-top:5px solid #F06;
+    color:#F06;
+}
